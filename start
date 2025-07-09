@@ -7,3 +7,6 @@ cd /vagrant/src/profiles_project
 python manage.py runserver 0.0.0.0:8080
 
     "token": "b4e983a4a5a7d0ce3b3e3757e80021bad1bca6f2"
+
+#Connect to AWS instance server
+ssh -i C:/Users/g.aliaj/workspace/.ssh/id_ed25519 ubuntu@ec2-3-83-246-60.compute-1.amazonaws.com
